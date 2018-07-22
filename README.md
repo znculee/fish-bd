@@ -1,5 +1,7 @@
 # fish-bd
 
+Forked from 0rax/fish-bd and without print new path.
+
 [![Join the chat at https://gitter.im/0rax/fish-bd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/0rax/fish-bd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Quickly go back to a parent directory up in your current working directory tree.**
@@ -43,13 +45,13 @@ Options:
 #### Using Fisherman (recommended method)
 ```
 # This method allows you to update bd automatically via `fisher update`
-fisher install 0rax/fish-bd
+fisher install znculee/fish-bd
 ```
 
 #### Using Symlinks
 ```
 # This method allows you to update narwhal by just doing a 'git pull'
-git clone https://github.com/0rax/fish-bd ~/.config/fish/fish-bd
+git clone https://github.com/znculee/fish-bd ~/.config/fish/fish-bd
 mkdir -p ~/.config/fish/functions/ ~/.config/fish/completions/
 ln -s ~/.config/fish/fish-bd/functions/bd.fish   ~/.config/fish/functions/
 ln -s ~/.config/fish/fish-bd/completions/bd.fish ~/.config/fish/completions/

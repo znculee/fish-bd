@@ -86,7 +86,6 @@ function bd
     if [ "$newpwd" = "$oldpwd" ]
         echo "No such occurence." >&2
     else
-        echo "$newpwd"
         cd   "$newpwd"
     end
 
