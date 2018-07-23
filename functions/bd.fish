@@ -70,7 +70,6 @@ function bd
 
     if [ $i -gt (count $args) ]
         cd ..
-        pwd
         return 0
     end
 
